@@ -8,13 +8,13 @@
 
 import Cocoa
 
-@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+    var mainWindowController: MainWindowController?
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        let mainWindowController = MainWindowController()
+        mainWindowController.showWindow(self)
+        self.mainWindowController = mainWindowController
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
