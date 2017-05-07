@@ -9,6 +9,7 @@
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="RGBWell" customModuleProvider="target">
             <connections>
                 <outlet property="adjustBlue" destination="fyu-ub-u0R" id="qmR-H8-wGf"/>
+                <outlet property="colorWell" destination="5vu-d3-78E" id="9ye-Uh-8jk"/>
                 <outlet property="window" destination="ItE-fG-RCJ" id="hBU-ei-27n"/>
             </connections>
         </customObject>
@@ -74,9 +75,16 @@
                             <action selector="adjustBlue:" target="-2" id="kkE-6F-0ku"/>
                         </connections>
                     </slider>
+                    <colorWell fixedFrame="YES" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vu-d3-78E">
+                        <rect key="frame" x="38" y="158" width="186" height="67"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <color key="color" red="0.05813049898" green="0.055541899059999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </colorWell>
                 </subviews>
             </view>
             <point key="canvasLocation" x="-70" y="24"/>
         </window>
+        <customObject id="8AY-yq-nf7"/>
+        <customObject id="3Rq-6q-aHN"/>
     </objects>
 </document>
