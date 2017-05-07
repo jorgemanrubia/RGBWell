@@ -9,7 +9,10 @@
         <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="RGBWell" customModuleProvider="target">
             <connections>
                 <outlet property="adjustBlue" destination="fyu-ub-u0R" id="qmR-H8-wGf"/>
+                <outlet property="bSlider" destination="fyu-ub-u0R" id="06W-AD-Xc8"/>
                 <outlet property="colorWell" destination="5vu-d3-78E" id="9ye-Uh-8jk"/>
+                <outlet property="gSlider" destination="2zu-mc-ZLf" id="qAL-Ph-75k"/>
+                <outlet property="rSlider" destination="tjB-5H-2xl" id="sMp-Q0-nEd"/>
                 <outlet property="window" destination="ItE-fG-RCJ" id="hBU-ei-27n"/>
             </connections>
         </customObject>
